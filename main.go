@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"learn-golang/algorithm/array"
+	string2 "learn-golang/algorithm/string"
 )
 
 func main() {
-	grid := [][]int{{1, 1, 1}, {1, 1, 1}}
-	fmt.Println(array.OnesMinusZeros(grid))
+	paths := [][]string{{"B", "C"}, {"D", "B"}, {"C", "A"}}
+	fmt.Println(string2.DestinationCity(paths))
 }
