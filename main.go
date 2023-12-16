@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
-	paths := [][]string{{"B", "C"}, {"D", "B"}, {"C", "A"}}
-	fmt.Println(string2.DestinationCity(paths))
+	s := "qwerty"
+	t := "ytrewa"
+	fmt.Println(string2.IsAnagram(s, t))
 }
