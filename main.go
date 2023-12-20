@@ -2,11 +2,10 @@ package main
 
 import (
 	"fmt"
-	string2 "learn-golang/algorithm/string"
+	"learn-golang/algorithm/array"
 )
 
 func main() {
-	s := "qwerty"
-	t := "ytrewa"
-	fmt.Println(string2.IsAnagram(s, t))
+	prices := []int{2, 3, 1}
+	fmt.Println(array.BuyChoco(prices, 3))
 }
