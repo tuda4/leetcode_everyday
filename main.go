@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	prices := []int{2, 3, 1}
-	fmt.Println(array.BuyChoco(prices, 3))
+	points := [][]int{{1, 0}, {8, 7}, {9, 9}, {7, 4}, {9, 7}}
+	fmt.Println(array.MaxWidthOfVerticalArea(points))
 }
