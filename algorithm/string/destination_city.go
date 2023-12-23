@@ -1,4 +1,4 @@
-package string
+package string2
 
 func DestinationCity(paths [][]string) string {
 	var destinationIndex0, destinationIndex1, pathDup []string

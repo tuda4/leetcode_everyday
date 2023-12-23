@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"learn-golang/algorithm/array"
+	string2 "learn-golang/algorithm/string"
 )
 
 func main() {
-	points := [][]int{{1, 0}, {8, 7}, {9, 9}, {7, 4}, {9, 7}}
-	fmt.Println(array.MaxWidthOfVerticalArea(points))
+	path := "NNSWWEWSSESSWENNW"
+	fmt.Println(string2.IsPathCrossing(path))
 }
