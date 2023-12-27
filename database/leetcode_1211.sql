@@ -29,6 +29,8 @@
 -- Return the result table in any order.
 
 -- solution::
+-- + quality = average of rating and position
+-- + percent of (rating<3) in all rating
 select query_name,
        round(avg(rating ::numeric(3, 2)/position), 2) as quality,
        round(sum(case when rating < 3 then 1 else 0 end)*100 ::numeric(5, 2)/count(rating), 2) as poor_query_percentage

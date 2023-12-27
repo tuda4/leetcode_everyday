@@ -2,10 +2,18 @@ package main
 
 import (
 	"fmt"
-	string2 "learn-golang/algorithm/string"
 )
 
 func main() {
-	path := "NNSWWEWSSESSWENNW"
-	fmt.Println(string2.IsPathCrossing(path))
+
+	fmt.Println(test("a"))
+}
+
+func test(str string) bool {
+	pricesTest := map[string]bool{
+		"holiday": true,
+		"default": true,
+		"sales":   true,
+	}
+	return pricesTest[str]
 }
