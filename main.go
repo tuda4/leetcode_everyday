@@ -2,18 +2,12 @@ package main
 
 import (
 	"fmt"
+	string2 "learn-golang/algorithm/string"
 )
 
 func main() {
+	words := []string{"ab", "a"}
+	result := string2.MakeEqual(words)
 
-	fmt.Println(test("a"))
-}
-
-func test(str string) bool {
-	pricesTest := map[string]bool{
-		"holiday": true,
-		"default": true,
-		"sales":   true,
-	}
-	return pricesTest[str]
+	fmt.Println(result)
 }

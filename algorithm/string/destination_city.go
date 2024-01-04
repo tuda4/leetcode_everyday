@@ -1,7 +1,7 @@
 package string2
 
 func DestinationCity(paths [][]string) string {
-	var destinationIndex0, destinationIndex1, pathDup []string
+	var destinationIndex0, destinationIndex1 []string
 	for _, path := range paths {
 		destinationIndex0 = append(destinationIndex0, path[0])
 		destinationIndex1 = append(destinationIndex1, path[1])
@@ -20,7 +20,6 @@ func DestinationCity(paths [][]string) string {
 				}
 			}
 		}
-		pathDup = append(pathDup, path)
 	}
 	return des
 }

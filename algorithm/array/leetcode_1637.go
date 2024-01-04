@@ -1,6 +1,7 @@
 package array
 
 import (
+	"fmt"
 	"sort"
 )
 
@@ -8,7 +9,6 @@ import (
 func MaxWidthOfVerticalArea(points [][]int) int {
 	latCoordinatesPoint := []int{}
 	max := 0
-
 	for _, point := range points {
 		latCoordinatesPoint = append(latCoordinatesPoint, point[0])
 	}
@@ -21,6 +21,6 @@ func MaxWidthOfVerticalArea(points [][]int) int {
 			max = a
 		}
 	}
-
+	fmt.Println(max)
 	return max
 }

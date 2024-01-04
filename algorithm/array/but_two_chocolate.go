@@ -12,5 +12,6 @@ func BuyChoco(prices []int, money int) int {
 	if remainMoney := money - minTwoPrices; remainMoney >= 0 {
 		return remainMoney
 	}
+
 	return money
 }
