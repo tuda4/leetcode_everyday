@@ -2,12 +2,10 @@ package main
 
 import (
 	"fmt"
-	string2 "learn-golang/algorithm/string"
+	array "learn-golang/algorithm/array"
 )
 
 func main() {
-	words := []string{"ab", "a"}
-	result := string2.MakeEqual(words)
-
-	fmt.Println(result)
+	res := array.CalPoints([]string{"5"})
+	fmt.Println(res)
 }
