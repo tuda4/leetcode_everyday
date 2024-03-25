@@ -19,7 +19,7 @@ Return the result table in any order.
 The result format is in the following example.
 
 ** Analyze:
-- Find the latest change_date for each product_id
+- Find the latest change_date for each product_id before 2019-08-16
 - If there is no change_date for a product_id, then the price is 10
 - If there is a change_date for a product_id, then the price is new_price
 ** Solution:
